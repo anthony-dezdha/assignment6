@@ -327,7 +327,7 @@ def fast_sort(lst):
             equal.append(x)
         else:
             greater.append(x)
-    return fast_sort(greater) + equal + fast_sort(smaller)
+    return fast_sort(smaller) + equal + fast_sort(greater)
 
 
 
